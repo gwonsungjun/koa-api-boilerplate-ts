@@ -1,0 +1,8 @@
+.github
+.gitignore
+.idea
+.prettierrc
+README.md
+coverage
+package-lock.json
+node_modules

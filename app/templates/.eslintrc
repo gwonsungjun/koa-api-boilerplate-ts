@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "import"],
+  "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:@typescript-eslint/eslint-recommended", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "typescript": { "extensions": [".ts", "d.ts"] }
+    }
+  },
+  "rules": {
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/no-throw-literal": "off",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off"
+  }
+}
